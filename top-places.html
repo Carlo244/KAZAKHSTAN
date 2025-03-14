@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top 5 Places in Kazakhstan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <!-- Navigation Bar -->
+    <nav class="bg-black p-4 fixed top-0 w-full z-50 shadow-md">
+      <div
+        class="container mx-auto flex flex-col lg:flex-row justify-between items-center"
+      >
+        <div
+          class="text-white font-bold text-3xl mb-4 lg:mb-0 hover:text-orange-600 cursor-pointer"
+        >
+          KAZAKHSTAN
+        </div>
+        <ul class="flex space-x-6">
+          <li>
+            <a
+              href="index.html"
+              class="text-white px-4 py-2 hover:text-orange-600 transition"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="discover.html"
+              class="text-white px-4 py-2 hover:text-orange-600 transition"
+              >Discover</a
+            >
+          </li>
+          <li>
+            <a
+              href="activities-food.html"
+              class="text-white px-4 py-2 hover:text-orange-600 transition"
+              >Things to Do & Eat</a
+            >
+          </li>
+          <li>
+            <a
+              href="top-places.html"
+              class="text-white px-4 py-2 border-b-2 border-orange-600 font-semibold"
+              >Top 5 Places</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="relative bg-cover bg-center h-[50vh] flex items-center justify-center text-white"
+      style="
+        background-image: url('https://cdn.britannica.com/52/7252-050-FE079526/Kazakhstan-map-features-locator.jpg');
+      "
+    >
+      <div class="absolute inset-0 bg-black opacity-40"></div>
+      <div class="relative z-10 text-center">
+        <h1 class="text-5xl font-bold">Top 5 Places to Visit</h1>
+        <p class="text-lg mt-2">
+          Explore Kazakhstan’s most breathtaking destinations
+        </p>
+      </div>
+    </section>
+
+    <!-- Top 5 Places Section -->
+    <section class="py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Must-Visit Destinations</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Place 1: Almaty -->
+          <div
+            class="bg-white p-6 shadow-md rounded-lg hover:scale-105 transition-transform"
+          >
+            <img
+              src="https://lp-cms-production.imgix.net/image_browser/Almaty_skyline_G.jpg?auto=format&fit=crop&q=40&sharp=10&vib=20&ixlib=react-8.6.4"
+              alt="Almaty"
+              class="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h3 class="text-xl font-semibold">Almaty</h3>
+            <p class="text-gray-600 mt-2">
+              Kazakhstan’s largest city, known for its mountains, culture, and
+              nightlife.
+            </p>
+          </div>
+
+          <!-- Place 2: Astana (Nur-Sultan) -->
+          <div
+            class="bg-white p-6 shadow-md rounded-lg hover:scale-105 transition-transform"
+          >
+            <img
+              src="https://cdn.britannica.com/65/89765-050-50F5F6C0/Nursultan-Kazakhstan.jpg"
+              alt="Nur-Sultan"
+              class="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h3 class="text-xl font-semibold">Astana (Nur-Sultan)</h3>
+            <p class="text-gray-600 mt-2">
+              The futuristic capital with iconic architecture like Baiterek
+              Tower.
+            </p>
+          </div>
+
+          <!-- Place 3: Charyn Canyon -->
+          <div
+            class="bg-white p-6 shadow-md rounded-lg hover:scale-105 transition-transform"
+          >
+            <img
+              src="https://www.visitmekazakhstan.com/wp-content/uploads/2018/02/2.-CHARYN-CANYON.jpg"
+              alt="Charyn Canyon"
+              class="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h3 class="text-xl font-semibold">Charyn Canyon</h3>
+            <p class="text-gray-600 mt-2">
+              The "Grand Canyon of Kazakhstan," perfect for hiking and
+              photography.
+            </p>
+          </div>
+
+          <!-- Place 4: Lake Kaindy -->
+          <div
+            class="bg-white p-6 shadow-md rounded-lg hover:scale-105 transition-transform"
+          >
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/57b9b98a29687f1ef5c622df/1477907707899-EL2JBU4HZN976610BDH4/DSC_0223.jpg"
+              alt="Lake Kaindy"
+              class="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h3 class="text-xl font-semibold">Lake Kaindy</h3>
+            <p class="text-gray-600 mt-2">
+              A surreal submerged forest lake in the Tian Shan Mountains.
+            </p>
+          </div>
+
+          <!-- Place 5: Big Almaty Lake -->
+          <div
+            class="bg-white p-6 shadow-md rounded-lg hover:scale-105 transition-transform"
+          >
+            <img
+              src="https://www.meganstarr.com/wp-content/uploads/2018/05/wide-angle-photo-of-big-almaty-lake-in-kazakhstan.jpg"
+              alt="Big Almaty Lake"
+              class="w-full h-48 object-cover rounded-md mb-4"
+            />
+            <h3 class="text-xl font-semibold">Big Almaty Lake</h3>
+            <p class="text-gray-600 mt-2">
+              A stunning alpine lake surrounded by mountains, ideal for
+              sightseeing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+      <p>&copy; 2025 Explore Kazakhstan. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
